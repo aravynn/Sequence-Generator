@@ -1,0 +1,198 @@
+/*************************************\
+* BASIC STYLES FOR SEQUENCE GENERATOR *
+* CREATED 12/02/19 by Kevin Jones	  *
+* MEP Brothers Ltd. 				  *
+\*************************************/
+
+/*-------- RESET --------*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	font-family: 'Barlow Semi Condensed', sans-serif;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*-------- GENERAL STYLES --------*/
+		
+body {
+		background: url('img/bg-fractal-white.jpg') 0 0;
+		
+		}
+		
+		
+#wrapper {
+		border: 1px solid #ddd;
+		background-color: #fff; 
+		margin: 20px auto;
+		width: 400px;
+		border-radius: 4px; 
+		position: relative;
+		}
+
+#logo {
+		margin: 20px auto;
+		width: 200px;
+		display: block;
+		}
+
+form {
+		margin: 20px;
+		}
+label {
+		display: block;
+		margin-bottom: 10px;
+		font-family: 'Barlow Semi Condensed', sans-serif;
+		}	
+
+input {
+		font-size: 12pt;
+		padding: 6px 0 6px 12px;
+		margin: 0;
+		border: 1px solid #ddd;
+		border-right-width: 0px;
+		border-radius: 4px 0 0 4px;
+		width: 245px;
+		font-family: 'Barlow Semi Condensed', sans-serif;
+	 	}
+
+button { 
+		margin: 0;
+		padding: 6px;
+		width: 100px; 
+		font-size: 12pt;
+		border: 1px solid #ddd;
+		border-radius: 0 4px 4px 0;
+		background-color: #fff;
+		transition: border-color .3s, background-color .3s, color .3s;
+		font-family: 'Barlow Semi Condensed', sans-serif;
+		}
+		
+button:hover{
+		border-color: #36f;
+		background-color: #36f;
+		color: #fff;
+		}
+		
+#lastsaved {
+		font-size: 12pt; 
+		text-align: center;
+		}
+		
+#logout-form { 
+		display: inline-block;
+		position: absolute;
+		top: 5px;
+		right: 5px; 
+		margin: 0;
+		padding: 0;
+		}
+		
+#logout {
+		padding: 4px 8px 6px;
+		margin: 0;
+		width: auto;
+		border-radius: 4px;
+		}
+
+#getnumbers input {
+		width: 225px;
+		}
+		
+#getnumbers button {
+		width: 120px;
+		padding: 5px 6px 7px;
+		}
+
+h2 { 
+		font-size: 20pt;
+		text-align: center;
+		margin-bottom: 10px;
+		text-align: left;
+		}
+ul {
+		text-align; center;
+		}				
+li {
+		line-height: 30px;
+		display: inline-block;
+		padding: 5px 0px;
+		width: 65px;
+		text-align: center;
+		}
+		
+li.slash {
+		width: auto;
+		color: #fff;
+		}
+
+#numbers {
+		position: relative;
+		margin: 20px;
+		}
+		
+#undo {
+		display: inline-block;
+		position: absolute;
+		top: 0px;
+		right: 0;
+		margin: 0;
+		
+}
+
+#undo button {
+		padding: 4px 8px 6px;
+		margin: 0;
+		width: auto;
+		border-radius: 4px;
+		}
+		
+#error {
+		color: #f00;
+		border: 1px solid #ddd;
+		background-color: #fff; 
+		margin: 20px auto;
+		text-align: center;
+		padding: 10px 0;
+		width: 400px;
+		border-radius: 4px; 
+		position: relative;
+}
